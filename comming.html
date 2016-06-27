@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="image/LOGO.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cinema++</title>
+	<style type="text/css">
+		body{
+			background-repeat: no-repeat;
+			background: rgba(71,71,71,1);
+background: -moz-linear-gradient(top, rgba(71,71,71,1) 0%, rgba(82,82,82,1) 12%, rgba(66,66,66,1) 20%, rgba(94,94,94,1) 30%, rgba(41,41,41,1) 41%, rgba(18,18,18,1) 49%, rgba(0,0,0,1) 53%, rgba(41,41,41,1) 76%, rgba(26,26,26,1) 91%, rgba(18,18,18,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71,71,71,1)), color-stop(12%, rgba(82,82,82,1)), color-stop(20%, rgba(66,66,66,1)), color-stop(30%, rgba(94,94,94,1)), color-stop(41%, rgba(41,41,41,1)), color-stop(49%, rgba(18,18,18,1)), color-stop(53%, rgba(0,0,0,1)), color-stop(76%, rgba(41,41,41,1)), color-stop(91%, rgba(26,26,26,1)), color-stop(100%, rgba(18,18,18,1)));
+background: -webkit-linear-gradient(top, rgba(71,71,71,1) 0%, rgba(82,82,82,1) 12%, rgba(66,66,66,1) 20%, rgba(94,94,94,1) 30%, rgba(41,41,41,1) 41%, rgba(18,18,18,1) 49%, rgba(0,0,0,1) 53%, rgba(41,41,41,1) 76%, rgba(26,26,26,1) 91%, rgba(18,18,18,1) 100%);
+background: -o-linear-gradient(top, rgba(71,71,71,1) 0%, rgba(82,82,82,1) 12%, rgba(66,66,66,1) 20%, rgba(94,94,94,1) 30%, rgba(41,41,41,1) 41%, rgba(18,18,18,1) 49%, rgba(0,0,0,1) 53%, rgba(41,41,41,1) 76%, rgba(26,26,26,1) 91%, rgba(18,18,18,1) 100%);
+background: -ms-linear-gradient(top, rgba(71,71,71,1) 0%, rgba(82,82,82,1) 12%, rgba(66,66,66,1) 20%, rgba(94,94,94,1) 30%, rgba(41,41,41,1) 41%, rgba(18,18,18,1) 49%, rgba(0,0,0,1) 53%, rgba(41,41,41,1) 76%, rgba(26,26,26,1) 91%, rgba(18,18,18,1) 100%);
+background: linear-gradient(to bottom, rgba(71,71,71,1) 0%, rgba(82,82,82,1) 12%, rgba(66,66,66,1) 20%, rgba(94,94,94,1) 30%, rgba(41,41,41,1) 41%, rgba(18,18,18,1) 49%, rgba(0,0,0,1) 53%, rgba(41,41,41,1) 76%, rgba(26,26,26,1) 91%, rgba(18,18,18,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#121212', GradientType=0 );
+		}
+		.container{
+			background-repeat: no-repeat;
+				background: rgba(117,117,117,1);
+background: -moz-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(138,138,138,1) 12%, rgba(112,112,112,1) 20%, rgba(158,158,158,1) 30%, rgba(66,66,66,1) 41%, rgba(28,28,28,1) 49%, rgba(0,0,0,1) 53%, rgba(66,66,66,1) 76%, rgba(43,43,43,1) 91%, rgba(28,28,28,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(117,117,117,1)), color-stop(12%, rgba(138,138,138,1)), color-stop(20%, rgba(112,112,112,1)), color-stop(30%, rgba(158,158,158,1)), color-stop(41%, rgba(66,66,66,1)), color-stop(49%, rgba(28,28,28,1)), color-stop(53%, rgba(0,0,0,1)), color-stop(76%, rgba(66,66,66,1)), color-stop(91%, rgba(43,43,43,1)), color-stop(100%, rgba(28,28,28,1)));
+background: -webkit-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(138,138,138,1) 12%, rgba(112,112,112,1) 20%, rgba(158,158,158,1) 30%, rgba(66,66,66,1) 41%, rgba(28,28,28,1) 49%, rgba(0,0,0,1) 53%, rgba(66,66,66,1) 76%, rgba(43,43,43,1) 91%, rgba(28,28,28,1) 100%);
+background: -o-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(138,138,138,1) 12%, rgba(112,112,112,1) 20%, rgba(158,158,158,1) 30%, rgba(66,66,66,1) 41%, rgba(28,28,28,1) 49%, rgba(0,0,0,1) 53%, rgba(66,66,66,1) 76%, rgba(43,43,43,1) 91%, rgba(28,28,28,1) 100%);
+background: -ms-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(138,138,138,1) 12%, rgba(112,112,112,1) 20%, rgba(158,158,158,1) 30%, rgba(66,66,66,1) 41%, rgba(28,28,28,1) 49%, rgba(0,0,0,1) 53%, rgba(66,66,66,1) 76%, rgba(43,43,43,1) 91%, rgba(28,28,28,1) 100%);
+background: linear-gradient(to bottom, rgba(117,117,117,1) 0%, rgba(138,138,138,1) 12%, rgba(112,112,112,1) 20%, rgba(158,158,158,1) 30%, rgba(66,66,66,1) 41%, rgba(28,28,28,1) 49%, rgba(0,0,0,1) 53%, rgba(66,66,66,1) 76%, rgba(43,43,43,1) 91%, rgba(28,28,28,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#1c1c1c', GradientType=0 );
+			max-width: 90%;
+			margin: 0 auto;
+		}
+		.nav-header{
+			border-bottom: 2px solid white;
+			background-color: #131313;
+		}
+		.nav-header ul{
+			margin-left: 6%;
+		}
+		.navbar-collapse{
+			padding-left: 180px;
+			padding-right: 130px;
+		}
+		.nav{
+			text-align: center;
+			font-weight: bold;
+			
+		}
+		.item img{
+			width: 100%;
+			height: 40%;
+		}
+		.footer{
+			color: black;
+			clear: both;
+			padding-left: 5%;
+			padding-top: 1%;
+			padding-bottom: 1%;
+			margin-top: 10%;
+			font-size: 12px;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 90%;
+		}
+		.box{
+			padding: 10px;
+			float: left;
+			margin-right: 0px;
+			border: 3px solid #666;
+			color: white;
+			max-width: 100%;
+			height: auto;
+		}
+		.box img{
+			width: 35%;
+			height: 35%;
+		}
+		.box p{
+			font-size: 90%;
+		}
+		.isi{
+			background: rgba(105,105,105,1);
+background: -moz-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(125,125,125,1) 12%, rgba(102,102,102,1) 20%, rgba(143,143,143,1) 30%, rgba(59,59,59,1) 41%, rgba(26,26,26,1) 49%, rgba(0,0,0,1) 53%, rgba(59,59,59,1) 76%, rgba(38,38,38,1) 91%, rgba(26,26,26,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(105,105,105,1)), color-stop(12%, rgba(125,125,125,1)), color-stop(20%, rgba(102,102,102,1)), color-stop(30%, rgba(143,143,143,1)), color-stop(41%, rgba(59,59,59,1)), color-stop(49%, rgba(26,26,26,1)), color-stop(53%, rgba(0,0,0,1)), color-stop(76%, rgba(59,59,59,1)), color-stop(91%, rgba(38,38,38,1)), color-stop(100%, rgba(26,26,26,1)));
+background: -webkit-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(125,125,125,1) 12%, rgba(102,102,102,1) 20%, rgba(143,143,143,1) 30%, rgba(59,59,59,1) 41%, rgba(26,26,26,1) 49%, rgba(0,0,0,1) 53%, rgba(59,59,59,1) 76%, rgba(38,38,38,1) 91%, rgba(26,26,26,1) 100%);
+background: -o-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(125,125,125,1) 12%, rgba(102,102,102,1) 20%, rgba(143,143,143,1) 30%, rgba(59,59,59,1) 41%, rgba(26,26,26,1) 49%, rgba(0,0,0,1) 53%, rgba(59,59,59,1) 76%, rgba(38,38,38,1) 91%, rgba(26,26,26,1) 100%);
+background: -ms-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(125,125,125,1) 12%, rgba(102,102,102,1) 20%, rgba(143,143,143,1) 30%, rgba(59,59,59,1) 41%, rgba(26,26,26,1) 49%, rgba(0,0,0,1) 53%, rgba(59,59,59,1) 76%, rgba(38,38,38,1) 91%, rgba(26,26,26,1) 100%);
+background: linear-gradient(to bottom, rgba(105,105,105,1) 0%, rgba(125,125,125,1) 12%, rgba(102,102,102,1) 20%, rgba(143,143,143,1) 30%, rgba(59,59,59,1) 41%, rgba(26,26,26,1) 49%, rgba(0,0,0,1) 53%, rgba(59,59,59,1) 76%, rgba(38,38,38,1) 91%, rgba(26,26,26,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696969', endColorstr='#1a1a1a', GradientType=0 );
+			padding-bottom: 80px;
+			padding-left: 10px;
+			padding-right: 10px;
+			border-bottom: 2px solid #666;
+			font-family: Lucida Calligraphy;
+			font-size: 17px;
+			max-width: 80%;
+			text-align: justify;
+			height: 100%;
+			color: white;
+			
+		}
+		.isi h3 a{
+			color: white;
+		}
+		.isi h3 a:hover{
+			font-weight: bold;
+		}
+		.isi  h2{
+			padding: 10px 0px;
+			background: #131313;
+			color: #333;
+			text-align: center;
+		}
+		.isi img{
+			max-width: 20%;
+			float: left;
+			margin-right: 2%;
+		}
+		span{
+			color:white;
+		}
+		.tengah{
+			margin-left: 18%;
+		}
+		.img{
+			max-width: 100%;
+			margin-right: 0px;
+			margin-top: 10px;
+		}
+		.img img{
+			margin-left: 0%;
+			width: 100%;
+		}
+		.kiri{
+			width: 15%;
+			float: left;
+		}
+		.tiket{
+			float: right;
+			clear: both;
+			font-size: 12px;
+			text-align: center;
+			border: 1px solid #0F0;
+			border-radius:5px; 
+			padding: 5px;
+			display: inline-block;
+			background: black;
+		}
+		.tiket a{
+			text-decoration: none;
+			color: #333;
+		}
+		.footerkanan img{
+			margin: 0 1%;
+			border-radius: 30px;
+			width: 5%;
+			float: right;
+			height: 5%;
+		}
+		.footerkiri{
+			width: 30%;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="navbar navbar-default navbar-static-top" role="navigation">
+			  <div class="nav-header">
+			    <div class="navbar-header">
+			        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			          <span class="sr-only"></span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			        </button>
+			        <a class="navbar-brand" href="#" style="font-weight:bold;font-size:40px;font-family:Bradley Hand ITC;">CINEMA++</a>
+			    </div>
+			    <div class="navbar-collapse collapse">
+			        <ul class="nav navbar-nav">
+			          <li ><a href="index.html">Home</a></li>
+			          <li><a href="nowplaying.html">Now Playing</a></li>
+			          <li style="border-left:1px solid #333;border-right:1px solid #333;color:#333;font-size:20px;"><a href="comming.html">Comming Soon</a></li>
+			          <li><a href="trailer.html">Trailers</a></li>
+			          <li><a href="aboutus.html">About Us</a></li>
+			          <li><a href="member.html">Member</a></li>
+			        </ul>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="kiri">
+				<div class="img">
+					<img src="image/SP.jpg">
+				</div>
+				<div class="box">
+					<p>Sponsored by :</p>
+					<img src="image/mbc.jpg">
+					<img src="image/tk.png">
+				</div>
+			</div>
+			<div class="tengah">
+				<div class="isi">
+					<h2>COMMING SOON</h2>
+					<h3>TERMINATOR GENISYS (IMAX 3D)</h3>
+					<img src="image/terminator.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Tahun 2029, John Connor (Jason Clarke), pemimpin perlawanan, terus berperang melawan mesin. Di Los Angeles, ketakutan John akan masa depan yang suram mulai muncul ketika mata-mata TECOM membuka alur cerita baru oleh skynet yang menyerangnya dari masa lalu dan masa depan - dan pada akhirnya akan mengubah perang tersebut selamanya.</p>
+				</div>
+				<div class="isi">
+					<h3>MENCARI HILAL</h3>
+					<img src="image/hilal.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Di benak MAHMUD (60), tak ada yang lebih mulia selain tulus berjuang menerapkan perintah Islam secara kaffah dalam semua aspek hidup. Bertahun-tahun lamanya Mahmud berdakwah agar setiap orang percaya bahwa Islam adalah satu-satunya solusi semua persoalan hidup.</p>
+				</div>
+				<div class="isi">
+					<h3>THE AGE OF ADALINE</h3>
+					<img src="image/adaline.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Setelah kecelakaan fatal yang dialaminya. Adaline (Blake Lively), 29 tahun mengalami sebuah keajaiban, Dia tidak pernah bertambah tua. Adaline terus merahasiakan kondisinya ini selama 80 tahun terakhir sampai Ia bertemu dengan Ellis Jones (Michiel Huisman) seorang Pria yang diharapkan bisa menghentikan apa yang terjadi padanya.</p>
+				</div>
+				<div class="isi">
+					<h3>SPL 2</h3>
+					<img src="image/spl2.jpg">
+					<p><span>SYNOPSIS</span><br>
+					SPL 2 mengisahkan seorang polisi Hong Kong (Wu Jing) yang menyamar menjadi pecandu narkoba di sebuah geng narkotik besar. Ketika penyamarannya terbongkar, secara tiba-tiba dia terpenjara di Thailand. Dia mencari berbagai cara agar bisa keluar dan kembali ke Hong Kong. Disisi lain salah satu penjaga tahanan bernama Chai (Tony Jaa) mengumpulkan uang demi mendapatkan donor tulang untuk putrinya yang menderita leukemia. Chai mendapatkan tawaran menjadi penjual organ tubuh dengan bayaran yang besar. Dengan tawaran itu Chai melakukan berbagai cara mendapatkan organ tubuh secara ilegal. Ketika polisi Hong Kong itu mencoba untuk kabur dari penjara dan mengakibatkan keributan yang tidak terkendali.</p>
+				</div>
+				<div class="isi">
+					<h3>SUPERFAST!</h3>
+					<img src="image/super.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Lucas White (Alex Ashbaugh) adalah polisi yang sedang menyamar untuk membongkar kejahatan jalanan. Lucas bergabung dengan kelompok Vin Serento (Dale Pavinski) untuk menangkap bos mafia Juan Carlos de la Sol (Omar Chaparro). Kelompok ini tidak hanya cepat, tapi juga sangat konyol.</p>
+				</div>
+				<div class="isi">
+					<h3>SERENA</h3>
+					<img src="image/serena.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Diangkat dari novel laris karya Ron Rash, Serena berlatar tahun 1929 di saat masa resesi North Carolina. George Pemberton (Bradley Cooper) adalah pengusaha kayu yang cukup sukses. Namun kehidupannya menjadi rumit saat ia menikahi wanita cantik bernama Serena (Jennifer Lawrence). Serena yang tidak bisa memiliki anak menjadi marah saat mengetahui ternyata suami yang di cintainya telah memiliki anak dari perempuan lain. Tidak terima dengan keadaan ini Serena merencanakan pembunuhan terhadap anak tersebut sambil berusaha mempertahankan bisnis kayunya agar tidak diambil oleh pemerintah.</p>
+				</div>
+				<div class="isi">
+					<h3>LAMARAN</h3>
+					<img src="image/lamaran.jpg">
+					<p><span>SYNOPSIS</span><br>
+					TIAR SARIGAR, seorang pengacara muda ambisius asal Batak, yang tiba-tiba karirnya melejit berkat keberaniannya membela BASUKI, klien untuk kasus korupsi kelas kakap yang melibatkan ARIF RUPAWAN, seorang bos mafia. Gara-gara liputan media, Tiar yang selain pintar juga cantik menjadi terkenal dan membuatnya menjadi sasaran ancaman pembunuhan dari Arif yang takut Tiar akan membongkar keterlibatannya.</p>
+				</div>
+				<div class="isi">
+					<h3>SURGA YANG TAK DIRINDUKAN</h3>
+					<img src="image/surga.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Kisah cinta pada pandangan pertama Arini (Laudya Cynthia Bella) dan Pras (Fedi Nuril) begitu indah. Pernikahan yang kemudian terwujud mendatangkan kebahagiaan lain dengan hadirnya Nadia (buah cinta keduanya). Sosok Pras yang baik dan setia selalu menenangkan Arini, berbagai kisah perselingkuhan yang dialami perempuan di sekelilingnya, termasuk sahabat dekatnya, tidak sekalipun mengusik kepercayaan Arini terhadap sang suami. Demi mewujudkan rumah agar senantiasa menjadi surga cintanya dan Pras, Arini pun berusaha mengabdikan diri sepenuh hati sebagai Ibu dan Istri.</p>
+				</div>
+				<div class="isi">
+					<h3>COMIC 8: CASINO KINGS</h3>
+					<img src="image/comic.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Comic 8 : Casino Kings, menceritakan tentang misi ke 8 agen rahasia yang berada di bawah pimpinan INDRO WARKOP ditugaskan untuk Undercover menjadi COMIC atau Stand Up Comedian, demi mencari seorang comic yang menjadi penghubung ke seorang Master Kriminal yang bernama THE KING, yang terkenal sebagai Raja Perjudian pemilik Casino paling spektakuler di Asia. Untuk mencari Casino tersebut dan menangkap The King, Kedelapan Comic tersebut harus melewati banyak proses dan hambatan, dari menghindari kejaran penyelidikan Interpol dan pihak kepolisian akan peristiwa perampokan bank dalam misi sebelumnya, sampai harus menghadapi pasukan pembunuh, kelompok preman dan penjahat cap kampak yang cukup memberi kejutan dan kerepotan untuk mereka.</p>
+				</div>
+				<div class="isi">
+					<h3>DEMONIC</h3>
+					<img src="image/demonic.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Detektif polisi Mark Lewis (Frank Grillo) dan seorang psikolog, Dr Elizabeth Klein (Maria Bello), mendapat tugas menyelidiki kematian lima mahasiswa yang diketahui tewas saat sedang melakukan investigasi atas sebuah rumah yang diyakini sangat angker.</p>
+				</div>
+				<div class="isi">
+					<h3>ARE WE OFFICIALLY DATING?</h3>
+					<img src="image/dating.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Jason (Zac Efron), Daniels (Miles Teller) dan Mikey (Michael B. Jordan) adalah tiga sahabat baik. Saat pacar Mikey memutuskan untuk meninggalkannya. Jason dan Daniels membawa Mikey ke sebuah bar untuk melupakan apa yang sudah terjadi. Sayangnya, Mikey sama sekali tidak bisa melanjutkan hidup. Sementara Jason berhasil membawa pulang Ellie (Imogen Poots). Rencana awal hanya untuk cinta sesaat, ternyata Jason malah jatuh hati. Daniels kecewa terhadap Mikey karena mereka memiliki perjanjian untuk tidak menjalin asmara serius dengan wanita. Namun belakangan Daniels juga menjalin hubungan dengan Chelsea (Mackenzie Davis). Ketiganya kini sadar kehidupan mereka telah berubah.</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footerkiri">
+				<p>Contact Us</p>
+				<p>087867077371</p>
+				<p>Jln. BatangKuis Tanjung Morawa</p>
+				<p>Email : cinema++@gmail.com</p>
+			</div>
+			<div class="footerkanan">
+				<a href=""><img src="image/twitter-logo.jpg"></a>
+				<a href=""><img src="image/path-icon.png"></a>
+				<a href=""><img src="image/fb.jpg"></a>
+				<a href=""><img src="image/instagram.jpg"></a>
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
