@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="image/LOGO.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cinema++</title>
+	<style type="text/css">
+		body{
+			background-repeat: no-repeat;
+			background: rgba(71,71,71,1);
+background: -moz-linear-gradient(top, rgba(71,71,71,1) 0%, rgba(82,82,82,1) 12%, rgba(66,66,66,1) 20%, rgba(94,94,94,1) 30%, rgba(41,41,41,1) 41%, rgba(18,18,18,1) 49%, rgba(0,0,0,1) 53%, rgba(41,41,41,1) 76%, rgba(26,26,26,1) 91%, rgba(18,18,18,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71,71,71,1)), color-stop(12%, rgba(82,82,82,1)), color-stop(20%, rgba(66,66,66,1)), color-stop(30%, rgba(94,94,94,1)), color-stop(41%, rgba(41,41,41,1)), color-stop(49%, rgba(18,18,18,1)), color-stop(53%, rgba(0,0,0,1)), color-stop(76%, rgba(41,41,41,1)), color-stop(91%, rgba(26,26,26,1)), color-stop(100%, rgba(18,18,18,1)));
+background: -webkit-linear-gradient(top, rgba(71,71,71,1) 0%, rgba(82,82,82,1) 12%, rgba(66,66,66,1) 20%, rgba(94,94,94,1) 30%, rgba(41,41,41,1) 41%, rgba(18,18,18,1) 49%, rgba(0,0,0,1) 53%, rgba(41,41,41,1) 76%, rgba(26,26,26,1) 91%, rgba(18,18,18,1) 100%);
+background: -o-linear-gradient(top, rgba(71,71,71,1) 0%, rgba(82,82,82,1) 12%, rgba(66,66,66,1) 20%, rgba(94,94,94,1) 30%, rgba(41,41,41,1) 41%, rgba(18,18,18,1) 49%, rgba(0,0,0,1) 53%, rgba(41,41,41,1) 76%, rgba(26,26,26,1) 91%, rgba(18,18,18,1) 100%);
+background: -ms-linear-gradient(top, rgba(71,71,71,1) 0%, rgba(82,82,82,1) 12%, rgba(66,66,66,1) 20%, rgba(94,94,94,1) 30%, rgba(41,41,41,1) 41%, rgba(18,18,18,1) 49%, rgba(0,0,0,1) 53%, rgba(41,41,41,1) 76%, rgba(26,26,26,1) 91%, rgba(18,18,18,1) 100%);
+background: linear-gradient(to bottom, rgba(71,71,71,1) 0%, rgba(82,82,82,1) 12%, rgba(66,66,66,1) 20%, rgba(94,94,94,1) 30%, rgba(41,41,41,1) 41%, rgba(18,18,18,1) 49%, rgba(0,0,0,1) 53%, rgba(41,41,41,1) 76%, rgba(26,26,26,1) 91%, rgba(18,18,18,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#121212', GradientType=0 );
+		}
+		.container{
+			background-repeat: no-repeat;
+				background: rgba(117,117,117,1);
+background: -moz-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(138,138,138,1) 12%, rgba(112,112,112,1) 20%, rgba(158,158,158,1) 30%, rgba(66,66,66,1) 41%, rgba(28,28,28,1) 49%, rgba(0,0,0,1) 53%, rgba(66,66,66,1) 76%, rgba(43,43,43,1) 91%, rgba(28,28,28,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(117,117,117,1)), color-stop(12%, rgba(138,138,138,1)), color-stop(20%, rgba(112,112,112,1)), color-stop(30%, rgba(158,158,158,1)), color-stop(41%, rgba(66,66,66,1)), color-stop(49%, rgba(28,28,28,1)), color-stop(53%, rgba(0,0,0,1)), color-stop(76%, rgba(66,66,66,1)), color-stop(91%, rgba(43,43,43,1)), color-stop(100%, rgba(28,28,28,1)));
+background: -webkit-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(138,138,138,1) 12%, rgba(112,112,112,1) 20%, rgba(158,158,158,1) 30%, rgba(66,66,66,1) 41%, rgba(28,28,28,1) 49%, rgba(0,0,0,1) 53%, rgba(66,66,66,1) 76%, rgba(43,43,43,1) 91%, rgba(28,28,28,1) 100%);
+background: -o-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(138,138,138,1) 12%, rgba(112,112,112,1) 20%, rgba(158,158,158,1) 30%, rgba(66,66,66,1) 41%, rgba(28,28,28,1) 49%, rgba(0,0,0,1) 53%, rgba(66,66,66,1) 76%, rgba(43,43,43,1) 91%, rgba(28,28,28,1) 100%);
+background: -ms-linear-gradient(top, rgba(117,117,117,1) 0%, rgba(138,138,138,1) 12%, rgba(112,112,112,1) 20%, rgba(158,158,158,1) 30%, rgba(66,66,66,1) 41%, rgba(28,28,28,1) 49%, rgba(0,0,0,1) 53%, rgba(66,66,66,1) 76%, rgba(43,43,43,1) 91%, rgba(28,28,28,1) 100%);
+background: linear-gradient(to bottom, rgba(117,117,117,1) 0%, rgba(138,138,138,1) 12%, rgba(112,112,112,1) 20%, rgba(158,158,158,1) 30%, rgba(66,66,66,1) 41%, rgba(28,28,28,1) 49%, rgba(0,0,0,1) 53%, rgba(66,66,66,1) 76%, rgba(43,43,43,1) 91%, rgba(28,28,28,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', endColorstr='#1c1c1c', GradientType=0 );
+			max-width: 90%;
+			margin: 0 auto;
+		}
+		.nav-header{
+			border-bottom: 2px solid white;
+			background-color: #131313;
+		}
+		.nav-header ul{
+			margin-left: 6%;
+		}
+		.navbar-collapse{
+			padding-left: 180px;
+			padding-right: 130px;
+		}
+		.nav{
+			text-align: center;
+			font-weight: bold;
+			
+		}
+		.item img{
+			width: 100%;
+			height: 40%;
+		}
+		.footer{
+			color: black;
+			clear: both;
+			padding-left: 5%;
+			padding-top: 1%;
+			padding-bottom: 1%;
+			margin-top: 10%;
+			font-size: 12px;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 90%;
+		}
+		.box{
+			padding: 10px;
+			float: left;
+			margin-right: 0px;
+			border: 3px solid #666;
+			color: white;
+			max-width: 100%;
+			height: auto;
+		}
+		.box img{
+			width: 35%;
+			height: 35%;
+		}
+		.box p{
+			font-size: 90%;
+		}
+		.isi{
+			background: rgba(105,105,105,1);
+background: -moz-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(125,125,125,1) 12%, rgba(102,102,102,1) 20%, rgba(143,143,143,1) 30%, rgba(59,59,59,1) 41%, rgba(26,26,26,1) 49%, rgba(0,0,0,1) 53%, rgba(59,59,59,1) 76%, rgba(38,38,38,1) 91%, rgba(26,26,26,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(105,105,105,1)), color-stop(12%, rgba(125,125,125,1)), color-stop(20%, rgba(102,102,102,1)), color-stop(30%, rgba(143,143,143,1)), color-stop(41%, rgba(59,59,59,1)), color-stop(49%, rgba(26,26,26,1)), color-stop(53%, rgba(0,0,0,1)), color-stop(76%, rgba(59,59,59,1)), color-stop(91%, rgba(38,38,38,1)), color-stop(100%, rgba(26,26,26,1)));
+background: -webkit-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(125,125,125,1) 12%, rgba(102,102,102,1) 20%, rgba(143,143,143,1) 30%, rgba(59,59,59,1) 41%, rgba(26,26,26,1) 49%, rgba(0,0,0,1) 53%, rgba(59,59,59,1) 76%, rgba(38,38,38,1) 91%, rgba(26,26,26,1) 100%);
+background: -o-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(125,125,125,1) 12%, rgba(102,102,102,1) 20%, rgba(143,143,143,1) 30%, rgba(59,59,59,1) 41%, rgba(26,26,26,1) 49%, rgba(0,0,0,1) 53%, rgba(59,59,59,1) 76%, rgba(38,38,38,1) 91%, rgba(26,26,26,1) 100%);
+background: -ms-linear-gradient(top, rgba(105,105,105,1) 0%, rgba(125,125,125,1) 12%, rgba(102,102,102,1) 20%, rgba(143,143,143,1) 30%, rgba(59,59,59,1) 41%, rgba(26,26,26,1) 49%, rgba(0,0,0,1) 53%, rgba(59,59,59,1) 76%, rgba(38,38,38,1) 91%, rgba(26,26,26,1) 100%);
+background: linear-gradient(to bottom, rgba(105,105,105,1) 0%, rgba(125,125,125,1) 12%, rgba(102,102,102,1) 20%, rgba(143,143,143,1) 30%, rgba(59,59,59,1) 41%, rgba(26,26,26,1) 49%, rgba(0,0,0,1) 53%, rgba(59,59,59,1) 76%, rgba(38,38,38,1) 91%, rgba(26,26,26,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696969', endColorstr='#1a1a1a', GradientType=0 );
+			padding-bottom: 80px;
+			padding-left: 10px;
+			padding-right: 10px;
+			border-bottom: 2px solid #666;
+			font-family: Lucida Calligraphy;
+			font-size: 17px;
+			max-width: 80%;
+			text-align: justify;
+			color: white;
+			
+		}
+		.isi h3 a{
+			color: white;
+		}
+		.isi h3 a:hover{
+			font-weight: bold;
+		}
+		.isi  h2{
+			padding: 10px 0px;
+			background: #131313;
+			color: #333;
+			text-align: center;
+		}
+		.isi img{
+			max-width: 30%;
+			float: left;
+			margin-right: 2%;
+		}
+		span{
+			color:white;
+		}
+		.tengah{
+			margin-left: 18%;
+		}
+		.img{
+			max-width: 100%;
+			margin-right: 0px;
+			margin-top: 10px;
+		}
+		.img img{
+			margin-left: 0%;
+			width: 100%;
+		}
+		.kiri{
+			width: 15%;
+			float: left;
+		}
+		.tiket{
+			float: right;
+			clear: both;
+			font-size: 12px;
+			text-align: center;
+			border: 1px solid #0F0;
+			border-radius:5px; 
+			padding: 5px;
+			display: inline-block;
+			background: black;
+		}
+		.tiket a{
+			text-decoration: none;
+			color: #333;
+		}
+		.footerkanan img{
+			margin: 0 1%;
+			border-radius: 30px;
+			width: 5%;
+			float: right;
+			height: 5%;
+		}
+		.footerkiri{
+			width: 30%;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="navbar navbar-default navbar-static-top" role="navigation">
+			  <div class="nav-header">
+			    <div class="navbar-header">
+			        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			          <span class="sr-only"></span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			        </button>
+			        <a class="navbar-brand" href="#" style="font-weight:bold;font-size:40px;font-family:Bradley Hand ITC;">CINEMA++</a>
+			    </div>
+			    <div class="navbar-collapse collapse">
+			        <ul class="nav navbar-nav">
+			          <li ><a href="index.html">Home</a></li>
+			          <li style="border-left:1px solid #333;border-right:1px solid #333;color:#333;font-size:20px;"><a href="nowplaying.html">Now Playing</a></li>
+			          <li><a href="comming.html">Comming Soon</a></li>
+			          <li><a href="trailer.html">Trailers</a></li>
+			          <li><a href="aboutus.html">About Us</a></li>
+			          <li><a href="member.html">Member</a></li>
+			        </ul>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="kiri">
+				<div class="img">
+					<img src="image/SP.jpg">
+				</div>
+				<div class="box">
+					<p>Sponsored by :</p>
+					<img src="image/mbc.jpg">
+					<img src="image/tk.png">
+				</div>
+			</div>
+			<div class="tengah">
+				<div class="isi">
+					<h2>Now Playing</h2>
+					<h3><a href="">JURASSIC WORLD (IMAX 3D)</a></h3>
+					<img src="image/jurasic.jpg">
+					<p><span>SYNOPSIS</span><br>
+					20 tahun setelah kejadian Jurassic Park. Isla Nublar kini berfungsi penuh sebagai taman untuk para dinosaurus. Perusahaan kembali menghidupkan taman dengan atraksi baru dengan jenis dinosaurus yang baru juga. Claire (Bryce Dallas Howard) adalah salah satu tim ilmuwan yang menciptakan sebuah bentuk baru dari dinosaurus secara genetika untuk Jurassic World. Akan tetapi, tidak semua orang setuju ini adalah ide yang baik. Adalah Owen (Chris Pratt), pekerja di taman hiburan yang kuatir ide ini akan menjadi malapetaka baru bagi seluruh penghuni pulau.</p>
+
+					<div class="tiket"><a href="tiket.html">Booking Ticket</a></div>
+				</div>
+				<div class="isi">
+					<h3><a href="">POLTERGEIST</a></h3>
+					<img src="image/poltergeist.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Poltergeist akan menjadi sebuah remake film horror klasik tentang keluarga yang rumahnya di hantui oleh kekuatan jahat. Hal-hal aneh mulai terjadi di keluarga Eric Bowen (Sam Rockwell) saat rumah baru mereka ternyata berdiri diatas tanah bekas kuburan. Saat putri mereka Madison (Kennedi Clements) "diambil" oleh salah satu kekuatan yang tidak terlihat, Eric memutuskan untuk meminta bantuan agar putrinya bisa kembali.</p>
+					<br><br><br>
+					<div class="tiket"><a href="tiket.html">Booking Ticket</a></div>
+				</div>
+				<div class="isi">
+					<h3><a href="">MINIONS</a></h3>
+					<img src="image/minion.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Minions Kevin, Stuart dan Bob memulai pencarian mendebarkan untuk menemukan bos penjahat baru untuk memimpin mereka. Ketiganya bertemu dengan Scarlet Overkill, penjahat super yang bersama suaminya, Herb memiliki rencana untuk mengambil alih dunia.</p><br><br><br>
+					<br><br><br>
+					<div class="tiket"><a href="tiket.html">Booking Ticket</a></div>
+				</div>
+				<div class="isi">
+					<h3><a href="">ENTOURAGE</a></h3>
+					<img src="image/entourage.jpg">
+					<p><span>SYNOPSIS</span><br>
+					Diangkat dari serial TV sukses, Entourage menceritakan tentang kehidupan Vincent Chase (Adrian Grenier), seorang aktor muda Hollywood. Setelah film seri yang dibintanginya berakhir di HBO, Vince bersama sahabatnya, Eric (Kevin Connolly), Turtle (Jerry Ferrara) dan Johnny (Kevin Dillon) kembali berbisnis saat ia mendapatkan tawaran dari seorang mantan agen, Ari Gold (Jeremy Piven) yang kini menjadi bos dari studio besar untuk bermain di layar lebar.</p>
+					<br><br>
+					<div class="tiket"><a href="tiket.html">Booking Ticket</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footerkiri">
+				<p>Contact Us</p>
+				<p>087867077371</p>
+				<p>Jln. BatangKuis Tanjung Morawa</p>
+				<p>Email : cinema++@gmail.com</p>
+			</div>
+			<div class="footerkanan">
+				<a href=""><img src="image/twitter-logo.jpg"></a>
+				<a href=""><img src="image/path-icon.png"></a>
+				<a href=""><img src="image/fb.jpg"></a>
+				<a href=""><img src="image/instagram.jpg"></a>
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
